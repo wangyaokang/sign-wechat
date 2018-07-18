@@ -1,0 +1,51 @@
+<view class="course-content">
+  <view class="title">
+    课程名：
+  </view>
+  <view class="info">
+    English Class
+  </view>
+  <view class="title">
+    作业内容：
+  </view>
+  <view class="info">
+    step1: go to the school 
+  </view>
+  <view class="title">
+    作业上传时间：
+  </view>
+  <view class="info">
+    2018-07-04 14:07 ~ 2018-07-04 14:07
+  </view>
+  <view class="title">
+    班级：
+  </view>
+  <view class="info">
+    信计2018009
+  </view>
+</view>
+<view class="task-list">
+  <view class="task-title">
+    <view class="title"> 作业上交情况：</view>
+    <view class="task-upload">
+      <zan-button size="small" bindtap="goTaskUpload">上传作业</zan-button>
+    </view>
+  </view>
+  <view class="total">共 20 人，已上交 6人</view>
+  <view class="order">
+    <view class="order-title">全部</view>
+    <view class="order-content">
+      <zan-icon type="wap-nav"></zan-icon><label> 正序 </label>
+    </view>
+  </view>
+  <block wx:for="{{[1,2,3,4,5,6]}}" wx:key="{{index}}" data-idx="{{index}}">
+    <navigator url="/pages/course/upload/index" class="task" hover-class="navigator-hover">
+      <image class="userinfo-avatar" src="../../../images/avatar.jpg" mode="widthFix"></image>
+      <view class="task-content">
+        <view class="title">小明</view>
+        <view class="info">201806259</view>
+      </view>
+      <view class="uptime">18:20</view>
+    </navigator>
+  </block>
+</view>

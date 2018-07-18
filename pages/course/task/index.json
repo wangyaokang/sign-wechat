@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "作业内容",
+  "usingComponents": {
+    "zan-icon": "../../../dist/icon/index",
+    "zan-button": "../../../dist/btn/index"
+  }
+}

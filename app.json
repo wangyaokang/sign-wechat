@@ -1,0 +1,82 @@
+{
+  "pages": [
+    "pages/course/index",
+    "pages/course/task/index",
+    "pages/course/content/index",
+    "pages/course/upload/index",
+    "pages/course/edit/index",
+    "pages/user/index",
+    "pages/message/index",
+    "pages/message/edit/index",
+    "pages/sign/sign",
+    "pages/sign/location/index",
+    "pages/sign/edit/index",
+    "pages/dashboard/index",
+    "pages/btn/index",
+    "pages/datetime/index",
+    "pages/actionsheet/index",
+    "pages/badge/index",
+    "pages/calendar/index",
+    "pages/capsule/index",
+    "pages/card/index",
+    "pages/cell/index",
+    "pages/dialog/index",
+    "pages/field/index",
+    "pages/helper/index",
+    "pages/icon/index",
+    "pages/layout/index",
+    "pages/loading/index",
+    "pages/noticebar/index",
+    "pages/panel/index",
+    "pages/popup/index",
+    "pages/stepper/index",
+    "pages/steps/index",
+    "pages/switch/index",
+    "pages/tab/index",
+    "pages/tag/index",
+    "pages/toptips/index",
+    "pages/toast/index",
+    "pages/select/index"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#FAFAFA",
+    "navigationBarTitleText": "签到",
+    "navigationBarTextStyle": "black",
+    "backgroundTextStyle": "dark",
+    "backgroundColor": "#F8F8F8"
+  },
+  "debug": true,
+  "tabBar": {
+    "color": "gray",
+    "backgroundColor": "white",
+    "selectedColor": "green",
+    "borderStyle": "black",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/sign/sign",
+        "text": "签到",
+        "iconPath": "images/sign1.png",
+        "selectedIconPath": "images/sign2.png"
+      },
+      {
+        "pagePath": "pages/course/index",
+        "text": "课程",
+        "iconPath": "images/course1.png",
+        "selectedIconPath": "images/course2.png"
+      },
+      {
+        "pagePath": "pages/message/index",
+        "text": "消息",
+        "iconPath": "images/msg1.png",
+        "selectedIconPath": "images/msg2.png"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "我的",
+        "iconPath": "images/mine1.png",
+        "selectedIconPath": "images/mine2.png"
+      }
+    ]
+  }
+}

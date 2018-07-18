@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "我",
+  "usingComponents": {
+    "doc-page": "../../components/doc-page/index",
+    "zan-panel": "../../dist/panel/index",
+    "zan-cell": "../../dist/cell/index",
+    "zan-icon": "../../dist/icon/index",
+    "zan-button": "../../dist/btn/index"
+  }
+}

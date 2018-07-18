@@ -1,0 +1,22 @@
+<view class="page">
+  <view class="title">
+    My Task is to do sth
+  </view>
+  <view class="attachment">
+    <label class="tag">文件：</label>
+    <view class="file">wyk_2018-02-01.doc</view>
+    <view class="resource">
+      <button class="scan" type="mini">预览</button>
+      <button class="download" type="mini">下载</button>
+    </view>
+  </view>
+  <view class="desc">
+    <label class="tag">描述：</label>
+    <view class="desc-info">without task is terrifed boring</view>
+  </view>
+  <view class="score">
+    <label class="tag">评分：</label>
+    <input class="score-info" placeholder="在此打分"></input>
+    <button class="score-btn" type="default">确定</button>
+  </view>
+</view>

@@ -1,0 +1,60 @@
+<view class="course-edit">
+  <view class="course-title">
+    课程名：
+  </view>
+  <view class="course-info">
+    <input class="course-text"></input>
+  </view>
+  <view class="task-title">
+    作业内容：
+  </view>
+  <view class="task-info">
+    <textarea class="task-text" maxlength="-1"></textarea>
+  </view>
+  <view class="task-title">
+    作业上传时间：
+  </view>
+  <view class="section">
+    <view class="date-select">
+      <picker mode="date" bindchange="bindStartDateChange">
+        <view class="date">
+          <view wx:if="{{startDate != ''}}">{{startDate}}</view>
+          <view wx:else>{{today_date}}</view>
+        </view>
+      </picker>
+      <picker mode="time" bindchange="bindStartTimeChange">
+        <view class="time">
+          <view wx:if="{{startTime != ''}}">{{startTime}}</view>
+          <view wx:else>{{today_time}}</view>
+        </view>
+      </picker>
+    </view>
+    <view class="divsion">—</view>
+    <view class="date-select">
+      <picker mode="date" bindchange="bindEndDateChange">
+        <view class="date">
+          <view wx:if="{{endDate != ''}}">{{endDate}}</view>
+          <view wx:else>{{today_date}}</view>
+        </view>
+      </picker>
+      <picker mode="time" bindchange="bindEndTimeChange">
+        <view class="time">
+          <view wx:if="{{endTime != ''}}">{{endTime}}</view>
+          <view wx:else>{{today_time}}</view>
+        </view>
+      </picker>
+    </view>
+  </view>
+  <view class="class-title">
+    班级：
+  </view>
+  <view class="class-info">
+    <picker bindchange="bindClassChange" value="{{index}}" range="{{classArr}}">
+      <view class="class-text" wx:if="{{index != ''}}">{{classArr[index]}}</view>
+      <view class="class-text" wx:else>请选择班级</view>
+    </picker>
+  </view>
+  <view class="save-btn">
+    <button type="primary">保存</button>
+  </view>
+</view>

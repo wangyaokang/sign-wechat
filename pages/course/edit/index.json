@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "新增/编辑课程",
+  "usingComponents": {
+    "doc-page": "../../../components/doc-page/index",
+    "zan-panel": "../../../dist/panel/index",
+    "zan-cell": "../../../dist/cell/index",
+    "zan-icon": "../../../dist/icon/index",
+    "zan-button": "../../../dist/btn/index"
+  }
+}

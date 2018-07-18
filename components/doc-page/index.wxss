@@ -1,0 +1,17 @@
+.doc-container {
+  background: #F9F9F9;
+  overflow: hidden;
+  min-height: 100vh;
+  box-sizing: border-box;
+  padding: 0px 0;
+}
+
+.doc-content {
+  padding: 15px;
+  overflow: hidden;
+  color: #666;
+}
+
+.doc-content--without-pd {
+  padding: 15px 0;
+}

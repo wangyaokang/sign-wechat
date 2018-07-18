@@ -1,0 +1,47 @@
+.sign-edit {
+  background: #f8f8f8;
+  color: #999;
+  margin: 15rpx;
+  border-style: solid;
+  border-color: #f8f8f8;
+  border-width: 1px;
+}
+
+.input-content{
+  display: flex;
+  flex-direction: row;
+  margin: 15rpx;
+  border: 0 solid white;
+  border-bottom-width: 5rpx;
+}
+
+.input-left{
+  margin: 15rpx;
+}
+
+.input-title{
+  margin: 15rpx;
+}
+
+.input-right{
+  position: absolute;
+  right: 20rpx;
+  margin: 15rpx;
+}
+
+.remark-title{
+  margin: 30rpx
+}
+
+.remark-info{
+  height: 400rpx;
+  background: white;
+  color: #999;
+  margin: 30rpx;
+  border-style: solid;
+  border-color: #f8f8f8;
+  border-width: 1px;
+}
+.sign-save{
+  margin: 15rpx
+}

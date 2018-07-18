@@ -1,0 +1,29 @@
+<view class="page">
+  <view class="weui-search-bar">
+    <view class="weui-search-bar__form">
+      <view class="weui-search-bar__box">
+        <icon class="weui-icon-search_in-box" type="search" size="12"></icon>
+        <input type="text" class="weui-search-bar__input" placeholder="搜索" />
+      </view>
+    </view>
+    <view class="edit">
+      <zan-icon type="edit" bindtap="goEdit"></zan-icon>
+    </view>
+  </view>
+
+  <block class="course-list" wx:for="{{[1,2,3,4,5,6]}}" wx:key="{{index}}" data-idx="{{index}}">
+    <view class="" wx:if="{{inputVal.length == 0}}">
+      <navigator url="/pages/course/task/index" class="course" hover-class="navigator-hover">
+        <view class="course-icon">
+          <zan-icon type="description"></zan-icon>
+        </view>
+        <view class="course-content">
+          <view class="course-title">课程名</view>
+          <view class="course-info">第一课：我的祖国</view>
+        </view>
+        <view class="course-teacher">王老师</view>
+        <view class="course-uptime">18:20</view>
+      </navigator>
+    </view>
+  </block>
+</view>

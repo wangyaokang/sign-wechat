@@ -1,0 +1,67 @@
+<view class="sign-edit">
+  <view class="input-content">
+    <view class="input-left">
+      <zan-icon type="pending-orders"></zan-icon>
+    </view>
+    <view class="input-title">
+      <label>课程</label>
+    </view>
+    <view class="input-right">
+      <input class="course" style="text-align:right" value="请输入课程"></input>
+    </view>
+  </view>
+  <view class="input-content">
+    <view class="input-left">
+      <zan-icon type="contact"></zan-icon>
+      <zan-icon type="contact"></zan-icon>
+    </view>
+    <view class="input-title">
+      <label>班级</label>
+    </view>
+    <view class="input-right">
+      <input class="class" style="text-align:right" value="请输入班级"></input>
+    </view>
+  </view>
+  <view class="input-content">
+    <view class="input-left">
+      <zan-icon type="clock"></zan-icon>
+    </view>
+    <view class="input-title">
+      <label>签到时间</label>
+    </view>
+    <view class="input-right">
+      <input class="course" style="text-align:right" value="请输入课程"></input>
+    </view>
+  </view>
+  <view class="input-content">
+    <view class="input-left">
+      <zan-icon type="contact"></zan-icon>
+    </view>
+    <view class="input-title">
+      <label>教师</label>
+    </view>
+    <view class="input-right">
+      <input class="course" style="text-align:right" value="请输入教师"></input>
+    </view>
+  </view>
+  <view class="input-content">
+    <view class="input-left">
+      <zan-icon type="location"></zan-icon>
+    </view>
+    <view class="input-title">
+      <label>定位</label>
+    </view>
+    <view class="input-right">
+      <input class="course" style="text-align:right" value=""></input>
+    </view>
+  </view>
+  <view class="remark-title">
+    <label>备注</label>
+  </view>
+  <view class="remark-info">
+    <textarea class="remark"></textarea>
+  </view>
+  <view class="sign-save">
+    <button type="primary">保存</button>
+  </view>
+</view>

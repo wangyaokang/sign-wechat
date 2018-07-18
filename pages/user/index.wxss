@@ -1,0 +1,56 @@
+.user {
+  background: #f8f8f8;
+  color: #999;
+  margin: 15rpx;
+  border-style: solid;
+  border-color: #f8f8f8;
+  border-width: 1px;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname{
+  font-size: 30rpx;
+}
+
+.input-content{
+  display: flex;
+  flex-direction: row;
+  margin: 15rpx;
+  border: 0 solid white;
+  border-bottom-width: 5rpx;
+}
+
+.input-left{
+  margin: 15rpx;
+}
+
+.input-title{
+  margin: 15rpx;
+}
+
+.input-right{
+  position: absolute;
+  right: 20rpx;
+  margin: 15rpx;
+}
+
+.query-area{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  margin: 15rpx
+}
+
+.query-item {
+  text-align: center;
+  margin: 15rpx;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+}

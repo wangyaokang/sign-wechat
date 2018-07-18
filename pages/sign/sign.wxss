@@ -1,0 +1,187 @@
+.page {
+  background: #f8f8f8;
+  color: #999;
+}
+
+.location {
+  display: flex;
+  flex-direction: row;
+  margin-left: 15px;
+}
+
+.query-location {
+  position: absolute;
+  left: 20rpx;
+}
+
+.query-location-info{
+  margin-top: 5rpx;
+  margin-left: 40rpx;
+}
+
+.top {
+  height: 50rpx;
+  font-size: 35rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.edit {
+  position: absolute;
+  right: 20rpx;
+}
+
+.prev-symbol {
+  height: 100%;
+  margin-right: 15rpx;
+}
+
+.date-area {
+  height: 100%;
+}
+
+.next-symbol {
+  height: 100%;
+  margin-left: 15rpx;
+}
+
+.weeks {
+  display: flex;
+  height: 50rpx;
+  line-height: 50rpx;
+  margin-top: 40rpx;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.week {
+  flex-grow: 1;
+  text-align: center;
+  font-size: 30rpx;
+}
+
+.days {
+  height: 500rpx;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: white;
+  color: #999;
+  margin-left: 5rpx;
+  margin-right: 5rpx;
+}
+
+.empty-day {
+  width: 102rpx;
+  text-align: center;
+  border-style: solid;
+  border-color: #f8f8f8;
+  border-width: 1px;
+}
+
+.day {
+  width: 102rpx;
+  font-size: 30rpx;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-style: solid;
+  border-color: #f8f8f8;
+  border-width: 1px;
+}
+
+.select_day {
+  width: 102rpx;
+  font-size: 30rpx;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-style: solid;
+  border-color: green;
+  border-width: 1px;
+}
+
+.today_text {
+  font-size: 25rpx;
+  color: white;
+  background-color: green;
+}
+
+.select_icon {
+  position: inherit;
+}
+
+.hidden {
+  display: none;
+}
+
+#triangle-left {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-top: 15rpx solid transparent;
+  border-right: 30rpx solid gray;
+  border-bottom: 15rpx solid transparent;
+}
+
+#triangle-right {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-top: 15rpx solid transparent;
+  border-left: 30rpx solid gray;
+  border-bottom: 15rpx solid transparent;
+}
+
+.sign-title {
+  margin: 20rpx;
+  text-align: center;
+  color: goldenrod;
+  font-size: 35rpx;
+}
+
+.sign-info {
+  margin: 35rpx;
+  border: 1px solid #c8c7cc;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: white;
+}
+
+.sign-form-title {
+  margin-left: 10px;
+  color: green;
+  font-size: 35rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+
+.sign-content {
+  margin: 15px;
+  font-size: 35rpx;
+}
+
+/** 左箭头 */
+
+.left-arrow {
+  width: 25rpx;
+  height: 25rpx;
+  border-top: 5rpx solid #999;
+  border-left: 5rpx solid #999;
+  transform: rotate(-45deg);
+}
+
+/** 右箭头 */
+
+.right-arrow {
+  width: 25rpx;
+  height: 25rpx;
+  border-top: 5rpx solid #999;
+  border-right: 5rpx solid #999;
+  transform: rotate(45deg);
+}

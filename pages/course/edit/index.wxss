@@ -1,0 +1,81 @@
+.course-edit {
+  background: #f8f8f8;
+  color: #999;
+  margin: 15rpx;
+  border-style: solid;
+  border-color: #f8f8f8;
+  border-width: 1px;
+}
+
+.course-title {
+  margin: 20rpx;
+}
+
+.course-info {
+  margin: 20rpx;
+  background: white;
+}
+
+.course-text {
+  margin-left: 20rpx;
+  height: 2.58823529em;
+  min-height: 2.58823529em;
+  line-height: 2.58823529em;
+}
+
+.task-title {
+  margin: 20rpx;
+}
+
+.task-info {
+  margin: 20rpx;
+  background: white;
+}
+
+.task-text {
+  margin: 20rpx;
+}
+
+.section {
+  display: flex;
+  background: white;
+  flex-direction: row;
+  padding: 20rpx;
+}
+
+.date-select {
+  flex-grow: 1;
+  text-align: center;
+  font-size: 35rpx;
+}
+
+.date {
+  margin: 5rpx;
+  border: 2rpx #999 solid;
+}
+
+.time {
+  margin: 5rpx;
+  border: 2rpx #999 solid;
+}
+
+.class-title {
+  margin: 20rpx;
+}
+
+.class-info {
+  background: white;
+  margin: 20rpx;
+  text-align: center;
+}
+
+.class-text{
+  margin-left: 20rpx;
+  height: 2.58823529em;
+  min-height: 2.58823529em;
+  line-height: 2.58823529em;
+}
+
+.save-btn{
+  margin: 40rpx 20rpx;
+}

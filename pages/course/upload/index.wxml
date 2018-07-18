@@ -1,0 +1,23 @@
+<view class="content">
+  <view class="file">
+    <view class="file-title">
+      文件：
+    </view>
+    <input class="file-desc"></input>
+    <view class="file-btns">
+      <view class="file-btn">
+        <button class="weui-btn mini-btn" type="primary" size="mini">上传</button>
+      </view>
+      <view class="file-btn">
+        <button class="weui-btn mini-btn" type="warn" size="mini">删除</button>
+      </view>
+    </view>
+  </view>
+  <view class="desc">
+    <view class="desc-title">备注：</view>
+    <textarea class="desc-content"></textarea>
+  </view>
+  <view class="upload">
+    <button class="weui-btn mini-btn" type="primary" size="mini">确认上传</button>
+  </view>
+</view>

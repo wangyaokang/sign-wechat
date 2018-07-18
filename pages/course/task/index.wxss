@@ -1,0 +1,67 @@
+.page {
+  background-color: #f8f8f8;
+}
+
+.title {
+  text-align: center;
+  font-weight: bold;
+}
+
+.attachment {
+  border-top: 5rpx white solid;
+  margin-left: 20rpx;
+}
+
+.file{
+  text-align: center;
+}
+
+.resource {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.scan {
+  text-align: center;
+  margin: 40rpx 20rpx;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+}
+
+.download {
+  text-align: center;
+  margin: 40rpx 40rpx;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+}
+
+.desc{
+  height: 200rpx;
+  border-top: 5rpx white solid;
+  margin-left: 20rpx;
+}
+
+.desc-info{
+  margin: 40rpx;
+}
+
+.score {
+  border-top: 5rpx white solid;
+  margin: 40rpx 20rpx;
+}
+
+.score-info{
+  text-align: right;
+  text-shadow: white;
+}
+
+.score-btn{
+  margin: 40rpx;
+}
+.tag{
+  margin-left: 20rpx;
+  font-size: 30rpx;
+}

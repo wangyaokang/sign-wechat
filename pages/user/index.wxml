@@ -1,0 +1,91 @@
+<view class="user">
+  <view class="input-content">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="widthFix"></image>
+    <view class="input-title">
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </view>
+  </view>
+  <view class="input-content">
+    <view class="input-left">
+      <zan-icon type="pending-orders"></zan-icon>
+    </view>
+    <view class="input-title">
+      <label>姓名</label>
+    </view>
+    <view class="input-right">
+      <input class="course" style="text-align:right" placeholder="张小二"></input>
+    </view>
+  </view>
+  <picker bindchange="bindPickerChange" value="{{index}}" range="{{gender}}">
+    <view class="input-content">
+      <view class="input-left">
+        <zan-icon type="contact"></zan-icon>
+      </view>
+      <view class="input-title">
+        <label>性别</label>
+      </view>
+      <view class="input-right">
+        <view class="picker">
+          {{gender[index]}}
+        </view>
+      </view>
+    </view>
+  </picker>
+  <picker bindchange="bindPickerChange" value="{{index}}" range="{{userType}}">
+    <view class="input-content">
+      <view class="input-left">
+        <zan-icon type="contact"></zan-icon>
+      </view>
+      <view class="input-title">
+        <label>类别</label>
+      </view>
+      <view class="input-right">
+        <view class="picker">
+          {{userType[index]}}
+        </view>
+      </view>
+    </view>
+  </picker>
+  <block wx:if="{{userType[index]=='学生'}}">
+    <view class="input-content">
+      <view class="input-left">
+        <zan-icon type="clock"></zan-icon>
+      </view>
+      <view class="input-title">
+        <label>班级</label>
+      </view>
+      <view class="input-right">
+        <input class="course" style="text-align:right" placeholder="信计11102班"></input>
+      </view>
+    </view>
+    <view class="input-content">
+      <view class="input-left">
+        <zan-icon type="contact"></zan-icon>
+      </view>
+      <view class="input-title">
+        <label>学号</label>
+      </view>
+      <view class="input-right">
+        <input class="course" style="text-align:right" placeholder="201806259"></input>
+      </view>
+    </view>
+    <view class="query-area">
+      <view class="query-item">
+        <button type="primary">我的考勤</button>
+      </view>
+      <view class="query-item">
+        <button type="primary">我的成绩</button>
+      </view>
+    </view>
+  </block>
+  <block wx:else>
+    <view class="query-area">
+      <view class="query-item">
+        <button type="primary">我的班级</button>
+      </view>
+      <view class="query-item">
+        <button type="primary">我的签到</button>
+      </view>
+    </view>
+  </block>
+</view>
